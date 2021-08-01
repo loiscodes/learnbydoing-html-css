@@ -7,10 +7,11 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Discover Street: National Street Food Festival</title>
-    <meta name="description" content="" />
+    <title>World&#39;s Largest Food Festival 2021</title>
+<meta name="description" content="It&#39;s that time again! Sign-up for the world&#39;s largest street food festival. Vendors who signup get access to classes and an extensive knowledge base." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="./fontawesome-free-5.14.0-web/css/all.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <!--[if lt IE 7]>
@@ -19,25 +20,50 @@
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
+    <!-- Hero section -->
     <section class="section-container hero-container">
-      <span class="section-title-header hero-header"
-        >The World's Largest Street Food Festival</span
-      >
-      <h1 id="section-hero-dates">August 7th - 22th</h1>
-      <ul class="section-hero-list-of-cities">
-        <li>New York</li>
-        <li>Los Angeles</li>
-        <li>Chicago</li>
-        <li>Houston</li>
-        <li>Atlanta</li>
-        <li>Austin</li>
-      </ul>
+      <div class="section-hero-landing-page-sign-up-section" id="sign-up-form">
+        <form class="section-hero-landing-page-sign-up-form">
+          <input type="text" placeholder="Resturant Owner Name"/>
+          <input type="text" placeholder="Resturant Name"/>
+          <input type="tel" placeholder="Main Contact Phone"/>
+          <input type="email" placeholder="Main Contact Email"/>
+          <div>
+            <select>
+              <option value="" disabled selected hidden>Resturant Type</option>
+          <option value="truck">Truck</option>
+          <option value="cart">Cart</option>
+          <option value="trailer">Trailer</option>
+          <option value="tent">Tent/Caterer</option>
+          <option value="virtual">Virtual Kitchen</option>
+          </select>
+          </div>
+
+          <textarea placeholder="What kind of culinary delights do you offer?" cols="10"></textarea>
+          <input type="submit" value="Sign Up Now"/>
+        </form>
+      </div>
+      <div>
+        <main class="section-title-header hero-header"
+       >The World's Largest Street Food Festival</main
+     >
+     <h1 id="section-hero-dates">August 7th - 22th</h1>
+     <ul class="section-hero-list-of-cities">
+       <li>New York</li>
+       <li>Los Angeles</li>
+       <li>Chicago</li>
+       <li>Houston</li>
+       <li>Atlanta</li>
+       <li>Austin</li>
+     </ul>
+     </div>
     </section>
+    <!-- Information Section -->
     <section class="section-container info-container">
       <div class="section-title-header">10.2 M dollars generated</div>
       <div class="section-info-item-container">
         <span class="section-info-item">
-          <i class="fa fa-map fa-5x"></i>
+          <i class="fa fa-map fa-5x" aria-hidden="true"></i>
           <p class="section-info-paragraph">
             Discover Street has regional community workshops before the festival
             to help New and Veteran Street Vendors to help with marketing and
@@ -65,45 +91,50 @@
     </section>
     <section class="section-container history-container">
       <img
-        src="https://images.unsplash.com/photo-1547087163-b4025e8b98a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+        src="images/whatwedo.jpeg"
       />
-      <span class="section-title-header">We Love What We Do</span>
-      <p>
-        Discover Street has been around for over 5 years with a mission to
-        support, showcase, and uplift Street food vendors of all times. With
-        that mission in mind, we created the worlds largest street food festival
-      </p>
-      <p>
-        Held every year, we showcase diversity and creativity in culinary
-        creations, spanning from high-end to avent-garde concepts. We have all
-        walks of life travel to and from each city for a chance to explore and
-        <em>discover</em> something new or just simply hopping on an adventure.
-      </p>
-      <p>
-        For 3 weeks, Residents, Travelers, and Foodies have a chance to try new
-        local foods, play family-friendly games, and take mini-cooking classes,
-        which gives Street Vendors an opportunity to flex their culinary muscles
-        and get new patrons
-      </p>
-      <p>
-        We provide all the marketing, social media support and guidence, and
-        education needed to ensure the best experience for the Vendor and
-        customers whether you are new to the game or a Veteran!
-      </p>
-      <p>Get DISCOVERED.</p>
-      <a href="#sign-up-today-link">Sign up today</a>
+      <div class="section-content">
+        <div class="section-title-header">We Love What We Do</div>
+        <p>
+          Discover Street has been around for over 5 years with a mission to
+          support, showcase, and uplift Street food vendors of all times. With
+          that mission in mind, we created the worlds largest street food festival
+        </p>
+        <p>
+          Held every year, we showcase diversity and creativity in culinary
+          creations, spanning from high-end to avent-garde concepts. We have all
+          walks of life travel to and from each city for a chance to explore and
+          <em>discover</em> something new or just simply hopping on an adventure.
+        </p>
+        <p>
+          For 3 weeks, Residents, Travelers, and Foodies have a chance to try new
+          local foods, play family-friendly games, and take mini-cooking classes,
+          which gives Street Vendors an opportunity to flex their culinary muscles
+          and get new patrons
+        </p>
+        <p>
+          We provide all the marketing, social media support and guidence, and
+          education needed to ensure the best experience for the Vendor and
+          customers whether you are new to the game or a Veteran!
+        </p>
+        <p class="emphasis">Get DISCOVERED.</p>
+        <p><a href="#sign-up-today-link">Sign up today</a></p>
+        
+      </div>
+      
     </section>
     <section class="section-container sponsors-container">
+      <div class="section-title-header">In partnership with:</div>
       <ul class="section-sponsors-list">
-        <li>In partnership with:</li>
-        <li>National Festival Association</li>
-        <li>Park City Events Group</li>
-        <li><a>view more of our partnerships and sponsorships</a></li>
+        <li><img src="images/partnerships/NFA.png" class="sponsor-logo"/><span class="sponsor-name">National Festival Association</span></li>
+        <li><img src="images/partnerships/CityPark.png" class="sponsor-logo"/><span class="sponsor-name">City Park</span></li>
+        <li><img src="images/partnerships/HBM.png" class="sponsor-logo"/><span class="sponsor-name">HBM Bank</span></li>
+        <li><img src="images/partnerships/REG.png" class="sponsor-logo"/><span class="sponsor-name">Restrurant Equipment Group</span></li>
+        <li><img src="images/partnerships/VirtualBar.png" class="sponsor-logo"/><span class="sponsor-name">The Virtual Bar</span></li>
       </ul>
     </section>
     <section class="section-container cta-container">
-      <span class="section-subtitle-header"
-        >Don't Miss Out On This Amazing Event</span
+      <div class="section-title-header">Don't Miss Out On This Amazing Event</div
       >
       <span class="section-cta-blurb"
         >Still feel unsure? Worried about your mediocre site being bumbarded
@@ -117,23 +148,47 @@
     </section>
     <footer class="footer-footer-container">
       <!-- footer -->
-
-      <img
-        class="footer-footer-image-logo"
-        src="./images/discoverStreet-logo.png"
-      />
+  <section class="footer-section-container">
+    <div class="section-container">
       <nav class="footer-footer-nav">
-        <ul>
-          <li>Home</li>
-          <li>About Discover Street</li>
-          <li>Find a Truck</li>
-          <li>Calendar</li>
-          <li>Learning Center</li>
+        <ul class="nav-container">
+          <li class="footer-nav-menu-item"><a class="menu-item-button">About Discover Street</a></li>
+          <li class="footer-nav-menu-item"><a class="menu-item-button">Learning Center</a></li>
+          <li class="footer-nav-menu-item"><a class="menu-item-button">Find A Truck</a></li>
         </ul>
       </nav>
-      <span class="footer-footer-copyright"
-        >© 2020 Insert Name Here. All rights reserved.</span
-      >
+    </div>
+  </section>
+  <section class="footer-section-container">
+    <div class="section-container">
+      <img
+      class="footer-footer-image-logo"
+      src="./images/logo.png"
+    />
+   <span class="footer-footer-copyright"
+      >© Discover Street. All rights reserved.</span
+    >
+    </div>
+  </section>
+  <section class="footer-section-container">
+    <div class="section-container">
+      <span class="footer-heading">Follow Us</span>
+      <ul class="follow-us-container">
+        <li class="follow-us-menu-item"><i class="menu-item-icon fa fa-facebook fa-3x"></i></li>
+        <li class="follow-us-menu-item"><i class="menu-item-icon fa fa-instagram fa-3x"></i></li>
+        <li class="follow-us-menu-item"><i class="menu-item-icon fa fa-twitter fa-3x"></i></li>
+        <li class="follow-us-menu-item"><i class="menu-item-icon fa fa-vinmeo fa-3x"></i></li>
+        <li class="follow-us-menu-item"><i class="menu-item-icon fa fa-youtube fa-3x"></i></li>
+        <li class="follow-us-menu-item"><i class="menu-item-icon fa fa-snapchat fa-3x"></i></li>
+      </ul>
+    <address>
+       123 67 ST NE<br/>
+       Suite #62<br/>
+       New York, New York
+    </address>
+    <a href="tel:+15556063891" class="footer-telephone">555-606-3891</a>
+    </div>
+  </section>
     </footer>
   </body>
 </html>
