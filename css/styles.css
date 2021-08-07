@@ -1,3 +1,4 @@
+/******--------------------------- ROOT ---------------------------******/
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 /* General Styles */
@@ -5,11 +6,20 @@ body {
   margin: 0;
   font-family: "Roboto";
 }
+
 section.section-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+.section-title-header {
+  font-size: 3.75em;
+  margin: 2em 0 1em 0;
+  text-align: center;
+}
+
+/******--------------------------- HERO ---------------------------******/
 
 section.section-container.hero-container {
   background-position: center;
@@ -58,11 +68,7 @@ ul.section-hero-list-of-cities {
   justify-content: center;
   align-items: center;
 }
-.section-title-header {
-  font-size: 3.75em;
-  margin: 2em 0 1em 0;
-  text-align: center;
-}
+
 
 .hero-header {
   font-size: 4em;
@@ -155,6 +161,8 @@ ul.section-hero-list-of-cities li {
   font-weight: 600;
 }
 
+/******--------------------------- INFO ---------------------------******/
+
 section.section-container.info-container {
   min-height: 850px;
   color: #34282C;
@@ -179,6 +187,10 @@ span.section-info-item{
 i.fa{
   margin: .25em 0;
 }
+
+/******-------------------------- ABOUT ---------------------------******/
+
+
 section.history-container{
   background-color: #cf394e;
   align-items: start;
@@ -193,15 +205,20 @@ div.section-content{
   margin: 0 4em;
   color: white;
 }
+
 div.section-content p:not(:last-child){
-padding-left: 2em;
-}
-div.section-content p:last-child{
-  text-align: center;
-  margin-top: 3em;
+  padding-left: 2em;
   }
 
-  section.section-container.sponsors-container{
+  div.section-content p:last-child{
+    text-align: center;
+    margin-top: 3em;
+    }
+
+/******------------------------- SPONSORS -------------------------******/
+
+
+section.section-container.sponsors-container{
   max-height: 700px;
   }
 
@@ -232,13 +249,16 @@ section.section-container.sponsors-container ul.section-sponsors-list li{
     margin-bottom: 1em;
     }
 
+    
+/******---------------------------- CTA ---------------------------******/
+
     section.section-container.cta-container{
       margin: 0 10em;
       justify-content: center;
       min-height: 750px;
     }
 
-    /* FOOTER */
+    /******------------------------- FOOTER -------------------------******/
     footer.footer-footer-container {
       display: inline-flex;
       width: 100%;
